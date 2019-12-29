@@ -1,0 +1,201 @@
+body{
+    width: 1280px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    background-color: #222;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+header{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px 80px;
+    background-color: #222;
+}
+nav{
+    padding: 33px; 80px 0px;
+    margin-bottom: 16px;
+}
+main, div {
+    margin: 0px;
+    padding: 0px;
+}
+header ul{
+    display: inline-block;
+    list-style: none;
+    padding: 2px;
+    max-width: 700px;
+    vertical-align: top;
+}
+header li{
+    margin-right: 33px;
+    display: inline;
+}
+h1{
+    font-family: "Courier New Blond", "Courier", serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #d4d4d4;
+}
+.logo_img{
+    width: 60px;
+    padding: 0px;
+    margin-right: 60px;
+}
+
+.footer_aaa .logo_img{
+    margin-right: 10px;
+}
+
+.icon{
+    float: right;
+}
+.first_screen{
+    margin: 0px;
+    padding: 0px 80px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_heading{
+    width: 245px;
+    margin: 0px;
+    padding: 70px 70px 70px 125px;
+    text-align: center;
+}
+.advantages{
+    display: flex;
+    margin: 0px;
+    padding: 40px 160px 35px;
+    background-color: #131313;
+    justify-content: space-between;
+
+}
+
+.advantages_element{
+    width: 180px;
+    padding: 45px 0px;
+}
+.content{
+    background-color: #fff;
+    padding: 30px 160px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #131313;
+    
+    
+}
+.element{
+    width: 440px;
+    margin-bottom: 80px;
+}
+.element p{
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 220px;
+    padding: 440px;
+}
+.recommendation{
+    display: flex;
+    justify-content: space-between;
+    color: #131313;
+}
+.descripion_element{
+    width: 440px;
+    margin: 30px 0px;
+    list-style: none;
+    
+}
+.descripion_element ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 27px;
+}
+.descripion_element p{
+    margin-top: 28px;
+}
+.descripion_element h2{
+    font-family: "Courier New";
+    margin-bottom: 27px;
+}
+.descripion_element li{
+    margin-top: 28px;
+}
+
+.recommendations-list li{
+    position: relative;
+    margin-left: 30px;
+}
+
+.recommendations-list li::before{
+    content: "";
+    left: -20px;
+    top: 5px;
+    width: 7px;
+    height: 7px;
+    background-color: #ffcb06;
+    position: absolute;
+    border-radius: 50%;
+}
+.footer_menu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+    justify-content: space-between;
+    line-height: 75px;
+    margin-left: 80px;
+    height: 250px;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 78px;
+}
+.footer_a{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 160px;
+    color: #888;
+    font-size: 14px;
+}
+.footer_aa{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    width: 180px;
+}
+.footer_aaa{
+    display: flex;
+    color: #fff;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+hr{
+    border-color: #888;
+    margin-bottom: 50px;
+}
+button{
+    height: 50px;
+    width: 237px;
+    border-radius: 50px;
+    background-color: #ffcb06;
+    font-family: "Courier New", sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
